@@ -142,6 +142,14 @@ _Placeholder: add real screenshots of the Overview, Agent Reasoning and Learning
 
 Simplified radial physics, a bounded template library, 8 held-out days, synchronous adaptation, and no user accounts. See [docs/LIMITATIONS.md](docs/LIMITATIONS.md).
 
+## Team
+
+| GitHub |
+|---|
+| [@Fleur41](https://github.com/Fleur41) |
+| [@malise5](https://github.com/malise5) |
+| [@matrixjnr](https://github.com/matrixjnr) |
+
 ## AI-use disclosure
 
 Most of the code and documentation were written with Claude Code (Claude Opus 5.5). See [docs/AI_DISCLOSURE.md](docs/AI_DISCLOSURE.md); the team must complete the marked items.
