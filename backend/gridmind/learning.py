@@ -112,7 +112,8 @@ def judge(current_eval: dict, cand_eval: dict, current_train: dict, cand_train: 
         reasons.append("does not improve the training scenario it was proposed for")
     if improvement < ACCEPTANCE["min_holdout_improvement"]:
         ok = False
-        reasons.append(f"held-out score improves {improvement:.1%} (needs >= {ACCEPTANCE['min_holdout_improvement']:.0%})")
+        needed = ACCEPTANCE["min_holdout_improvement"]
+        reasons.append(f"held-out score improves {improvement:.1%} (needs >= {needed:.0%})")
     else:
         reasons.append(f"held-out score improves {improvement:.1%}")
     if new["unserved_mwh"] > cur["unserved_mwh"] + 1e-6:

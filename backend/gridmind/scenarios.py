@@ -75,7 +75,7 @@ def build_profiles(params: dict, grid: GridConfig) -> Profiles:
         "homes": lambda h: 0.25 + 0.20 * _bump(h, 7.0, 1.2) + 0.75 * _bump(h, 20.0, 1.8),
     }
     loads: dict[str, list[float]] = {}
-    for node in grid.nodes_of("load"):
+    for node in sorted(grid.nodes_of("load"), key=lambda n: n.id):
         shape = shapes.get(node.id, lambda h: 0.6)
         series = []
         for t in range(steps):

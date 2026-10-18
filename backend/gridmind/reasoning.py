@@ -43,7 +43,7 @@ class Rule:
         return self.__dict__.copy()
 
     @classmethod
-    def from_dict(cls, d: dict) -> "Rule":
+    def from_dict(cls, d: dict) -> Rule:
         return cls(**{k: d[k] for k in ("name", "priority", "condition", "directive", "description", "source")})
 
 

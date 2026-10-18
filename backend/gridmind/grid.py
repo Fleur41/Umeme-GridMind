@@ -58,7 +58,7 @@ class GridConfig:
         return {"nodes": [asdict(n) for n in self.nodes], "links": [asdict(link) for link in self.links]}
 
     @classmethod
-    def from_dict(cls, data: dict) -> "GridConfig":
+    def from_dict(cls, data: dict) -> GridConfig:
         return cls(
             nodes=[Node(**n) for n in data["nodes"]],
             links=[Link(**link) for link in data["links"]],

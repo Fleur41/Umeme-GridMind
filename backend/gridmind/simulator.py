@@ -35,7 +35,7 @@ class GridState:
         return asdict(self)
 
     @classmethod
-    def from_dict(cls, d: dict) -> "GridState":
+    def from_dict(cls, d: dict) -> GridState:
         return cls(**d)
 
 
