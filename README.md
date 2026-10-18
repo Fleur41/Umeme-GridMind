@@ -136,7 +136,27 @@ docs/      ARCHITECTURE, BENCHMARKS, DEMO_SCRIPT, AI_DISCLOSURE, LIMITATIONS
 
 ## Screenshots
 
-_Placeholder: add real screenshots of the Overview, Agent Reasoning and Learning Lab pages before submission._
+Captured from the running app (simulated data) after two adaptation rounds.
+
+**Learning Lab.** The growth timeline v1 → v2 → v3, the MeTTa diagnosis of the training day, the rule diff adding `(anticipate-ramp 1)`, and every candidate with its held-out score and the reasons it was accepted or rejected.
+
+![Learning Lab](docs/screenshots/learning-lab.png)
+
+**Live Simulation, baseline v1 on the compound day.** The battery drains overnight and again in the afternoon, so the evening surge goes unserved (red bars): 128.8 MWh lost.
+
+![Live Simulation](docs/screenshots/simulation.png)
+
+**Agent Reasoning.** One baseline decision traced end to end: agent evidence, the fact atoms asserted into the Hyperon space, which MeTTa rules fired, the plan, the failed ramp feasibility check, rejected alternatives, and expected vs actual outcome.
+
+![Agent Reasoning](docs/screenshots/reasoning.png)
+
+**Overview.** The same day under v3: unserved energy falls to 27.1 MWh, at the cost of higher emissions.
+
+![Overview](docs/screenshots/overview.png)
+
+**Grid Topology.** The radial network with live link flows and editable node parameters.
+
+![Grid Topology](docs/screenshots/topology.png)
 
 ## Limitations
 

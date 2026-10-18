@@ -29,7 +29,7 @@ export function Topology({ nodes, links, outcome, selected, onSelect }: {
   // Battery and thermal sit at the hub bus; draw their connection as a short local tie.
   const ties = nodes.filter((n) => n.kind === "battery" || n.kind === "thermal").map((n) => ({ id: `tie-${n.id}`, source: n.id, target: "hub" }));
   return (
-    <svg viewBox="0 0 640 390" className="h-auto w-full" role="img" aria-label="Grid topology: radial network around the central hub">
+    <svg viewBox="0 0 640 405" className="h-auto w-full" role="img" aria-label="Grid topology: radial network around the central hub">
       {[...links.map((l) => ({ ...l, tie: false })), ...ties.map((t) => ({ ...t, capacity_mw: 0, tie: true }))].map((l, i) => {
         const a = place(l.source, i), b = place(l.target, i);
         const flow = outcome?.link_flows_mw[l.id];
