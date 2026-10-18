@@ -54,7 +54,8 @@ def main() -> None:
     print("| Scenario | " + " | ".join(label for label, _ in evals) + " |")
     print("|---|" + "---|" * len(evals))
     for s in holdout_scenarios():
-        print(f"| {s['name']} | " + " | ".join(f"{ev['per_scenario'][s['key']]['score']:,.1f}" for _, ev in evals) + " |")
+        cells = [f"{ev['per_scenario'][s['key']]['score']:,.1f}" for _, ev in evals]
+        print(f"| {s['name']} | " + " | ".join(cells) + " |")
 
     print("\n## All predefined scenarios (not used for acceptance)\n")
     predefined = [s for s in all_scenarios() if s["role"] in ("predefined", "training")]
