@@ -1,0 +1,7 @@
+.git
+.venv
+.idea
+**/__pycache__
+**/*.sqlite3
+frontend
+docs
