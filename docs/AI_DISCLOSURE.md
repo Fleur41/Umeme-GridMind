@@ -22,5 +22,7 @@ The project owner chose the challenge, the product direction and the technology 
 
 - [ ] Name the chat assistant (product and model) used to draft the brief, if any: `__________`
 - [ ] List any other AI tools used (image generation for the video, voice-over, editing, etc.): `__________`
-- [ ] List team members and their contributions: `__________`
+- [ ] List team members and their contributions:
+  - [@malise5](https://github.com/malise5): `__________`
+  - [@matrixjnr](https://github.com/matrixjnr): `__________`
 - [ ] Confirm the team has reviewed and run the code: `__________`
