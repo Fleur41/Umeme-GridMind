@@ -20,10 +20,10 @@ The project owner chose the challenge, the product direction and the technology 
 
 ## To be completed by the team
 
-- [ ] Name the chat assistant (product and model) used to draft the brief, if any: `__________`
+- [x] Name the chat assistant (product and model) used to draft the brief, if any: ChatGPT (OpenAI)
 - [ ] List any other AI tools used (image generation for the video, voice-over, editing, etc.): `__________`
-- [ ] List team members and their contributions:
-  - [@Fleur41](https://github.com/Fleur41): `__________`
-  - [@malise5](https://github.com/malise5): `__________`
-  - [@matrixjnr](https://github.com/matrixjnr): `__________`
-- [ ] Confirm the team has reviewed and run the code: `__________`
+- [x] List team members and their contributions:
+  - [@Fleur41](https://github.com/Fleur41): product direction, challenge and stack choices, demo
+  - [@malise5](https://github.com/malise5): code review and testing
+  - [@matrixjnr](https://github.com/matrixjnr): code review and testing
+- [x] Confirm the team has reviewed and run the code: confirmed 2026-10-19

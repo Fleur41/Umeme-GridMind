@@ -176,4 +176,4 @@ Most of the code and documentation were written with Claude Code (Claude Opus 5.
 
 ## Credits and licences
 
-Built on [Hyperon / MeTTa](https://github.com/trueagi-io/hyperon-experimental) (MIT), Django and Django REST Framework (BSD-3), React (MIT), Vite (MIT), Tailwind CSS (MIT), Recharts (MIT), lucide-react (ISC), PostgreSQL (PostgreSQL licence). Fonts: Inter and JetBrains Mono (SIL OFL, via Google Fonts). Project licence: _to be chosen by the team_.
+Built on [Hyperon / MeTTa](https://github.com/trueagi-io/hyperon-experimental) (MIT), Django and Django REST Framework (BSD-3), React (MIT), Vite (MIT), Tailwind CSS (MIT), Recharts (MIT), lucide-react (ISC), PostgreSQL (PostgreSQL licence). Fonts: Inter and JetBrains Mono (SIL OFL, via Google Fonts). Project licence: [MIT](LICENSE).
