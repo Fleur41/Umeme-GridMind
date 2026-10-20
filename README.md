@@ -10,15 +10,7 @@ Submission to the BASIX.MARKET State of the Art Hackathon (October 2026), MeTTa 
 
 Press play to watch the agent fail on the baseline rules, diagnose itself in MeTTa, learn two new rules and prove them on held-out days.
 
-<!-- DEMO-VIDEO: https://github.com/user-attachments/assets/3c55d245-3a24-410c-8398-9ee91db9966d -->
-
-
-
 https://github.com/user-attachments/assets/05ca1e86-065e-4330-853a-5c5a1053fbf0
-
-
-
-
 
 *Narration uses a synthesized voice; see [docs/AI_DISCLOSURE.md](docs/AI_DISCLOSURE.md).*
 
