@@ -149,7 +149,15 @@ export default function Simulation() {
 
           <div className="grid gap-6 xl:grid-cols-3">
             <Card title="Supply vs demand (MW) - click a step to inspect" className="xl:col-span-2">
-              {series.length ? <SupplyChart data={series} onSelect={setSelectedT} selectedT={selectedT} /> : <Empty>Press Play or Step to begin.</Empty>}
+              {series.length ? <SupplyChart data={series} onSelect={setSelectedT} selectedT={selectedT} /> : (
+                <Empty>
+                  <p>The run is ready at 00:00. Play it step by step, or jump straight to the end of the day.</p>
+                  <div className="mt-4 flex justify-center gap-2">
+                    <button className="btn-ghost" onClick={() => setPlaying(true)} disabled={busy || playing}><Play size={14} /> Play</button>
+                    <button className="btn-primary" onClick={() => guard(() => advance(48))} disabled={busy || playing}><FastForward size={14} /> Run to end</button>
+                  </div>
+                </Empty>
+              )}
               {series.length > 0 && (
                 <details className="mt-3 text-xs text-ink-2">
                   <summary className="cursor-pointer text-ink-muted">Data table</summary>
