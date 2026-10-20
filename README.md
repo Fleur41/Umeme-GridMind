@@ -14,6 +14,10 @@ Press play to watch the agent fail on the baseline rules, diagnose itself in MeT
 
 
 
+https://github.com/user-attachments/assets/05ca1e86-065e-4330-853a-5c5a1053fbf0
+
+
+
 
 
 *Narration uses a synthesized voice; see [docs/AI_DISCLOSURE.md](docs/AI_DISCLOSURE.md).*
