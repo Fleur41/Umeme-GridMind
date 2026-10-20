@@ -7,7 +7,8 @@ The BASIX.MARKET hackathon rules require disclosure of AI assistance. This file 
 | Tool | Role in this project |
 |---|---|
 | **Claude Code (Anthropic), model Claude Opus 5.5** | Wrote most of the code in this repository in an interactive session with the project owner, including the simulator, MeTTa rule files, Hyperon integration, agents, adaptation loop, Django API, React frontend, tests, Docker/CI configuration and these docs. It also ran the tests, the benchmark and the Docker verification, and debugged the issues they surfaced. |
-| **A chat assistant (to be confirmed by the team; see below)** | The project brief and master build prompt given to Claude Code appear to have been drafted with a separate AI chat assistant. |
+| **ChatGPT (OpenAI)** | Used to draft the project brief and master build prompt given to Claude Code. |
+| **Claude Code + macOS text-to-speech (voice: Samantha)** | Recorded the demo video: Claude Code drove the running app in a scripted browser session and wrote the narration from `docs/DEMO_SCRIPT.md`; macOS text-to-speech voiced it. |
 
 ## What the AI did not do
 
@@ -21,7 +22,7 @@ The project owner chose the challenge, the product direction and the technology 
 ## To be completed by the team
 
 - [x] Name the chat assistant (product and model) used to draft the brief, if any: ChatGPT (OpenAI)
-- [ ] List any other AI tools used (image generation for the video, voice-over, editing, etc.): `__________`
+- [x] List any other AI tools used (image generation for the video, voice-over, editing, etc.): the demo video was recorded by Claude Code driving the app in a scripted browser session, with narration written by Claude Code from `docs/DEMO_SCRIPT.md` and voiced by macOS text-to-speech (voice: Samantha). All on-screen numbers come from the running app.
 - [x] List team members and their contributions:
   - [@Fleur41](https://github.com/Fleur41): product direction, challenge and stack choices, demo
   - [@malise5](https://github.com/malise5): code review and testing

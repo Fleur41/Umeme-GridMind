@@ -6,6 +6,14 @@ Submission to the BASIX.MARKET State of the Art Hackathon (October 2026), MeTTa 
 
 > **Simulation only.** All grid data is synthetic and illustrative. This is an educational research prototype, not a certified grid controller. It is not connected to any utility, SCADA system or live grid.
 
+## Demo video (2:27)
+
+Press play to watch the agent fail on the baseline rules, diagnose itself in MeTTa, learn two new rules and prove them on held-out days.
+
+<!-- DEMO-VIDEO: replace this line with the GitHub video link -->
+
+*Narration uses a synthesized voice; see [docs/AI_DISCLOSURE.md](docs/AI_DISCLOSURE.md).*
+
 ## The problem
 
 Grids with lots of solar and wind face fast swings in net load. A thermal plant can only ramp so fast, and a battery holds only so much energy. A fixed rule such as "use the battery first" works on an ordinary afternoon but fails badly when clouds and an evening demand surge arrive together: the battery is already empty when the peak hits, and the thermal plant cannot ramp in time.
